@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+body {
+  background-color: black;
+}
+.block {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  width: 50%;
+  height: 100vh;
+}
+.one {
+  left: 0%;
+  background-color: #d30004;
+}
+.two {
+  left: 50%;
+  background-color: white;
+}
+
+.nav {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 20px 20px;
+  height: 5vh;
+}
+.name {
+  position: absolute;
+  font-size: 100px;
+  font-family: "Poppins";
+}
+.rname {
+  color: #d30004;
+}
+.links {
+  position: fixed;
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  list-style: none;
+}
+.links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 550;
+  font-family: "Poppins";
+}
+.container {
+  z-index: 1;
+}
+.outer-div {
+  transform: translateY(-8vh);
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 10px 10px;
+  color: #d30004;
+  margin: 5px 15px;
+}
+footer i {
+  margin: 0px 5px;
+}
